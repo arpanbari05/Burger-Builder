@@ -1,0 +1,56 @@
+.BuildControls {
+    width: 35rem;
+    font-size: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.BuildControls p {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+}
+
+.Enabled {
+    width: 100%;
+    margin: .5rem 0;
+    font-size: 1.6rem;
+    padding: .5rem 1.5rem;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .2s;
+}
+
+.Enabled:hover {
+    background-color: #fff;
+    color: #211c3d;
+    transform: scale(1.05);
+    box-shadow: .5rem 0 1rem rgba(0,0,0, .2);
+}
+.Enabled:active {
+    transform: scale(1);
+}
+
+.Disabled {
+    width: 100%;
+    font-size: 1.6rem;
+    margin: .5rem 0;
+    padding: .5rem 1.5rem;
+    border: 1px solid #bbb;
+    color: #bbb;
+    border-radius: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: transparent;
+}

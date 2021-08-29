@@ -1,0 +1,48 @@
+.BuildControl {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.BuildControl p {
+    color: #fff;
+    font-family: inherit;
+    font-weight: 300;
+    width: 10rem;
+    text-transform: uppercase;
+    margin-right: auto;
+}
+
+.More {
+    text-transform: uppercase;
+    color: #211c3d;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: .5rem 1.5rem;
+    outline: none;
+    border: 1px solid #fff;
+    margin-right: 1rem;
+    transition: all .2s;
+}
+
+.More:hover,
+.Less:hover {
+    transform: scaleX(1.05);
+}
+
+.More:active,
+.Less:active {
+    transform: scaleX(1);
+}
+
+.Less {
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: .5rem 1.5rem;
+    outline: none;
+    transition: all .2s;
+}

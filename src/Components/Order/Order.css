@@ -1,0 +1,29 @@
+.Order {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-size: 1.6rem;
+}
+
+.Order:nth-child(even) {
+    background-color: #eee;
+}
+
+.Ingredient {
+    background-color: #211c3d;
+    padding: .5rem 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    border-radius: 1rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .Ingredient {
+        margin: 0 .7rem;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .Ingredient {
+        margin: 0 .7rem 0 0;
+    }
+}

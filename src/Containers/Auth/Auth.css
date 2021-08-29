@@ -1,0 +1,37 @@
+.Authentication {
+    width: 25%;
+    background: #fff;
+    box-shadow: rgba(0,0,0, .3) 0 .5rem 1rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem auto;
+}
+
+.Authentication form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Authentication p {
+    color: red;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Authentication {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Authentication {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .Authentication {
+        width: 90%;
+    }
+}

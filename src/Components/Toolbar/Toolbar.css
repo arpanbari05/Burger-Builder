@@ -1,0 +1,19 @@
+nav {
+    height: 100%;
+}
+
+.Toolbar {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .DesktopOnly {
+        display: none;
+    }
+}

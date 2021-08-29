@@ -1,0 +1,47 @@
+.Burger {
+    height: 50vh;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 2rem;
+    color: #fff;
+    overflow: scroll;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1200px) {
+    .Burger {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .Burger {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .Burger {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Burger {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Burger {
+        width: 80%;
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Burger {
+        width: 90%;
+        height: 40vh;
+    }
+}

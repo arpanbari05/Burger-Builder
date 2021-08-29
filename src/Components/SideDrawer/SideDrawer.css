@@ -1,0 +1,20 @@
+.SideDrawer {
+    justify-items: center;
+    max-width: 70%;
+    padding: 3rem 0;
+    width: 50%;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    transition: all .3s ease-out;
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}
